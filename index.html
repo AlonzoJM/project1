@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grave of the Fallen Sun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="embers" aria-hidden="true"></div>
+    <main id="app" class="app-shell"></main>
+    <template id="sound-hooks">
+      <!-- Sound hooks are intentionally empty. Wire files to these ids when assets are available. -->
+      <audio id="sfx-attack"></audio>
+      <audio id="sfx-heavy"></audio>
+      <audio id="sfx-dodge"></audio>
+      <audio id="sfx-block"></audio>
+      <audio id="sfx-bonfire"></audio>
+      <audio id="sfx-death"></audio>
+      <audio id="sfx-boss"></audio>
+      <audio id="sfx-loot"></audio>
+    </template>
+    <script src="game.js"></script>
+  </body>
+</html>
